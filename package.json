@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "babel-runtime": "^5.0.0"
+  },
+  "description": "Currying placeholders syntax",
+  "directories": {},
+  "keywords": [
+    "babel-plugin", "currying"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "Piotr \"Hitori\" Bosak",
+      "email": "piotr.hitori.bosak@gmail.com"
+    }
+  ],
+  "name": "babel-plugin-transform-curry",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {},
+  "version": "1.0.0"
+}
