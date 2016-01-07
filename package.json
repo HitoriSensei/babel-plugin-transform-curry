@@ -23,5 +23,5 @@
 "repository": {
     "type": "git",
     "url": "http://github.com/HitoriSensei/babel-plugin-transform-curry.git"
-  },
+  }
 }
