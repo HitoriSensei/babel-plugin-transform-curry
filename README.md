@@ -16,6 +16,14 @@ add(__,__); // (x,y) -> add(x,y)
 $ npm install babel-plugin-transform-curry
 ```
 
+```js
+{
+  "plugins": [
+    "transform-curry"
+  ]
+}
+```
+
 ## Usage
 ```js
 var add = (x,y)=>x+y;
