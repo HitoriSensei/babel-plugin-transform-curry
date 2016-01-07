@@ -12,6 +12,7 @@ add(__,__); // (x,y) -> add(x,y)
 
 ## Installation
 
+### This package is not yet published !
 ```sh
 $ npm install babel-plugin-transform-curry
 ```
