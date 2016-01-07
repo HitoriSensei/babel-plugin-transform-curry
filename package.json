@@ -19,5 +19,9 @@
   "optionalDependencies": {},
   "readme": "ERROR: No README data found!",
   "scripts": {},
-  "version": "1.0.0"
+  "version": "1.0.0",
+"repository": {
+    "type": "git",
+    "url": "http://github.com/HitoriSensei/babel-plugin-transform-curry.git"
+  },
 }
