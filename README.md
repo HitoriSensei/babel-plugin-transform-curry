@@ -1,6 +1,6 @@
 # babel-plugin-transform-curry
 
-Currying placeholders for JS
+Babel transform plugin for currying placeholders
 
 ```js
 var add = (x,y)=>x+y;
@@ -24,10 +24,8 @@ var mult = (x,y)=>x*y;
 var x = [1,2,3,4,5];
 
 // you can to it like this
-var z = x.map((v)=>add(v,2)).map((v)=>mult(3,v))
-console.log(z) // [ 9, 12, 15, 18, 21 ]
+x.map((v)=>add(v,2)).map((v)=>mult(3,v)) // [ 9, 12, 15, 18, 21 ]
 
 // or you can reuse functions with currying placeholders
-var y = x.map(add(__,2)).map(mult(3,__))
-console.log(y) // [ 9, 12, 15, 18, 21 ]
+x.map(add(__,2)).map(mult(3,__)) // [ 9, 12, 15, 18, 21 ]
 ```
